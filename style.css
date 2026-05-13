@@ -34,7 +34,7 @@ nav {
 }
 
 .direita h2 span {
-  color: rgb(255, 187, 0);
+  color: #ffbb00;
   font-size: 28px;
 }
 
@@ -113,4 +113,15 @@ nav {
   width: 50px;
 }
 
-.bottons
+.bottons button img.img-hover{
+  display: none;
+}
+
+.bottons button:hover img.img-normal{
+  display: none;
+}
+
+.bottons button:hover img.img-hover{
+  display: block;
+}
+
