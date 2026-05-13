@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: rgb(179, 179, 179);
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+}
+
+.containertop {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.direita {
+  margin-left: 70px;
+}
+
+.direita h2 {
+  color: #0c0e59;
+  font-size: 30px;
+}
+
+.direita h2 span {
+  color: rgb(255, 187, 0);
+  font-size: 28px;
+}
+
+.direita p {
+  color: #000;
+  margin-top: 20px;
+}
+
+.esquerda {
+}
+
+.placavideo {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 200px;
+  right: 500px;
+  z-index: 6;
+}
+
+.processador {
+  width: 100px;
+  position: absolute;
+  top:230px;
+  right:350px;
+  z-index: 10;
+}
+
+.placamae {
+  width: 300px;
+  position: absolute;
+  top: 120px;
+  right: 320px;
+  z-index: 5;
+}
+
+.gabinete {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top:100px;
+  right:220px;
+}
+
+.ssd {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top:200px;
+  right:60px;
+}
+
+.bottons{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.bottons button{
+  width: 120px;
+  height: 120px;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  padding-left:10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.bottons button img{
+  width: 50px;
+}
+
+.bottons
