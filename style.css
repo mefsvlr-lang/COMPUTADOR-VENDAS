@@ -88,7 +88,7 @@ nav {
   margin-top: 30px;
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 10px;
 }
 
 .bottons button{
@@ -103,10 +103,39 @@ nav {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  transition: 0.3s;
+  border: 2px solid transparent;
   gap: 5px;
 }
 
-.bottons button img{
+.button1 img{
+  width:40px;
+}
+.button2 img{
+  width: 40px;
+}
+.button3 img{
+  width: 60px;
+}
+.button4 img{
+  width:60px;
+}
+.button5 img{
+  width: 50px;
+}
+.button6 img{
+  width: 50px;
+}
+.button7 img{
+  width:50px;
+}
+.button8 img{
+  width: 40px;
+}
+.button9 img{
+  width: 50px;
+}
+.button10 img{
   width: 50px;
 }
 
@@ -117,6 +146,15 @@ nav {
 .bottons button:hover img.img-normal{
   display: none;
 }
+
+.bottons button:hover{
+border-color: #ffbb00;
+  transition: 0.3s;
+}
+.bottons button:hover p{
+  color: #ffbb00;
+}
+
 
 .bottons button:hover img.img-hover{
   display: block;
