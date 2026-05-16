@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: rgb(179, 179, 179);
+  background-color: rgb(255, 255, 255);
 }
 
 nav {
@@ -106,6 +106,7 @@ nav {
   transition: 0.3s;
   border: 2px solid transparent;
   gap: 5px;
+  background-color: #f0f0f0;
 }
 
 .button1 img{
@@ -158,5 +159,89 @@ border-color: #ffbb00;
 
 .bottons button:hover img.img-hover{
   display: block;
+}
+
+
+
+.filter {
+  height: 100%;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+.filter h3 {
+  margin-top: 20px;
+}
+
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.top {
+  padding: 15px 5px 15px 20px;
+}
+
+.top p{
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.top p:hover{
+  color: #ffbb00;
+}
+
+.checkboxes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0px 5px 0px;
+}
+
+.checkboxtop{
+    margin-left: 20px;
+}
+.checkboxlow{
+    margin-left: 20px;
+}
+
+
+
+.checkboxtop hr{
+  width: 90%;
+}
+
+.seemore{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.seemore img{
+  width: 20px;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price input{
+    width: 50%;
+    background-color: #ffbb00;
+}
+
+.precos{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }
 
