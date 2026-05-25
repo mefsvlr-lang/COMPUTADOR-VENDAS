@@ -11,142 +11,148 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+html {
+  font-size: 10px;
+}
+
+p {
+  font-size: 1.4em;
+}
+
 nav {
   width: 100%;
-  height: 100px;
+  height: 10em;
 }
 
 .containertop {
   width: 100%;
-  height: 250px;
+  height: 25em;
   background-color: white;
   display: flex;
   align-items: center;
 }
 
 .direita {
-  margin-left: 70px;
+  margin-left: 7em;
 }
 
 .direita h2 {
   color: #0c0e59;
-  font-size: 30px;
+  font-size: 2em;
 }
 
 .direita h2 span {
   color: #ffbb00;
-  font-size: 28px;
+  font-size: 2.8em;
 }
 
 .direita p {
   color: #000;
-  margin-top: 20px;
+  margin-top: 2em;
 }
 
 .placavideo {
-  width: 150px;
-  height: 150px;
+  width: 15em;
+  height: 15em;
   position: absolute;
-  top: 200px;
-  right: 500px;
+  top: 20em;
+  right: 50em;
   z-index: 6;
 }
 
 .processador {
-  width: 100px;
+  width: 10em;
   position: absolute;
-  top: 230px;
-  right: 350px;
+  top: 23em;
+  right: 35em;
   z-index: 10;
 }
 
 .placamae {
-  width: 300px;
+  width: 30em;
   position: absolute;
-  top: 120px;
-  right: 320px;
+  top: 12em;
+  right: 32em;
   z-index: 5;
 }
 
 .gabinete {
-  width: 250px;
-  height: 250px;
+  width: 25em;
+  height: 25em;
   position: absolute;
-  top: 100px;
-  right: 220px;
+  top: 10em;
+  right: 22em;
 }
 
 .ssd {
-  width: 200px;
-  height: 200px;
+  width: 20em;
+  height: 20em;
   position: absolute;
-  top: 200px;
-  right: 60px;
+  top: 20em;
+  right: 6em;
 }
 
 .bottons {
-  margin-top: 30px;
+  margin-top: 3em;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 1em;
 }
 
 .bottons button {
-  width: 120px;
-  height: 120px;
+  width: 12em;
+  height: 12em;
   border: none;
-  border-radius: 8px;
-  font-size: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
+  border-radius: 0.8em;
+  font-size: 1em;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   transition: 0.3s;
-  border: 2px solid transparent;
-  gap: 5px;
+  border: 0.2em solid transparent;
+  gap: 0.5em;
   background-color: #f0f0f0;
 }
 
 .button1 img {
-  width: 40px;
+  width: 4em;
 }
 
 .button2 img {
-  width: 40px;
+  width: 4em;
 }
 
 .button3 img {
-  width: 60px;
+  width: 6em;
 }
 
 .button4 img {
-  width: 60px;
+  width: 6em;
 }
 
 .button5 img {
-  width: 50px;
+  width: 5em;
 }
 
 .button6 img {
-  width: 50px;
+  width: 5em;
 }
 
 .button7 img {
-  width: 50px;
+  width: 5em;
 }
 
 .button8 img {
-  width: 40px;
+  width: 4em;
 }
 
 .button9 img {
-  width: 50px;
+  width: 5em;
 }
 
 .button10 img {
-  width: 50px;
+  width: 5em;
 }
 
 .bottons button img.img-hover {
@@ -166,49 +172,41 @@ nav {
   color: #ffbb00;
 }
 
-
 .bottons button:hover img.img-hover {
   display: block;
 }
 
-
-
 .products {
   display: flex;
-  gap: 25px;
-  margin-top: 50px;
+  gap: 2.5em;
+  margin-top: 5em;
   align-items: flex-start;
 }
 
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
-
+  gap: 2.5em;
 }
 
 .filter {
   height: 100%;
-  width: 350px;
+  width: 35em;
   background-color: #fff;
-  border-radius: 8px;
-  border: 1px solid #000;
+  border-radius: 0.8em;
+  border: 0.1em solid #000;
+  margin-left:2.5em;
 }
 
 .filter h3 {
-  margin-top: 20px;
+  margin-top: 2em;
 }
-
 
 .top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-
-.top {
-  padding: 15px 5px 15px 20px;
+  padding: 1.5em 0.5em 1.5em 2em;
 }
 
 .top p {
@@ -223,19 +221,17 @@ nav {
 .checkboxes {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin: 5px 0px 5px 0px;
+  gap: 1em;
+  margin: 0.5em 0em 0.5em 0em;
 }
 
 .checkboxtop {
-  margin-left: 20px;
+  margin-left: 2em;
 }
 
 .checkboxlow {
-  margin-left: 20px;
+  margin-left: 2em;
 }
-
-
 
 .checkboxtop hr {
   width: 90%;
@@ -249,7 +245,7 @@ nav {
 }
 
 .seemore img {
-  width: 20px;
+  width: 2em;
 }
 
 .price {
@@ -267,31 +263,30 @@ nav {
 .precos {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  gap: 5em;
 }
 
-
 .card {
-  width: 350px;
-  height: 400px;
-  border: 1px solid #000;
-  border-radius: 8px;
+  width: 35em;
+  height: 40em;
+  border: 0.1em solid #000;
+  border-radius: 0.8em;
   background-color: #fff;
 }
 
 .cardheart {
   display: flex;
   justify-content: flex-end;
-  margin-right: 10px;
-  margin-top: 10px;
+  margin-right: 1em;
+  margin-top: 1em;
 }
 
 .cardheart button {
   background-color: transparent;
-  width: 40px;
-  height: 40px;
+  width: 4em;
+  height: 4em;
   border-radius: 50%;
-  border: 1px solid #00000050;
+  border: 0.1em solid #00000050;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -299,8 +294,8 @@ nav {
 }
 
 .cardheart img {
-  width: 25px;
-  height: 25px;
+  width: 2.5em;
+  height: 2.5em;
 }
 
 .cardproduct {
@@ -309,13 +304,14 @@ nav {
 }
 
 .cardproduct img {
-  height: 200px;
+  height: 20em;
 }
 
 .cardtext {
   display: flex;
   flex-direction: column;
-  padding: 10px 20px 35px 20px;
+  padding: 1em 2em 2em 2em;
+  
 }
 
 .cardseparator {
@@ -324,25 +320,30 @@ nav {
 }
 
 .cardvalues {
-  padding: 0px 20px 0px 20px;
+  padding: 0em 0em 0em 2em;
   color: #0c0e59;
+
+}
+
+.cardvalues strong{
+  font-size:1.4em;
 }
 
 .cardbuy {
-  width: 50px;
-  height: 50px;
-  border-radius: 8px;
-  border: 3px solid #ffbb00;
+  width: 5em;
+  height: 5em;
+  border-radius: 0.8em;
+  border: 0.3em solid #ffbb00;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 20px 0px 0px;
+  margin: 0em 2em 0em 0em;
   cursor: pointer;
 }
 
 .cardbuy img {
-  width: 25px;
-  height: 25px;
+  width: 2.5em;
+  height: 2.5em;
 }
 
 .cardheart button img.img-hover {
@@ -351,7 +352,6 @@ nav {
 
 .cardheart button:hover img.img-normal {
   display: none;
-
 }
 
 .cardheart button:hover img.img-hover {
@@ -362,30 +362,30 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
-  gap: 5px;
+  margin-top: 4em;
+  gap: 0.5em;
 }
 
 .numberspage {
-  width: 40px;
-  height: 40px;
-  border: 1px solid #00000050;
+  width: 4em;
+  height: 4em;
+  border: 0.1em solid #00000050;
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 0.8em;
   cursor: pointer;
 }
 
 .threepointspages {
-  width: 40px;
-  height: 40px;
+  width: 4em;
+  height: 4em;
   border: none;
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 0.8em;
   cursor: pointer;
 }
 
-footer{
-  margin-top: 40px;
+footer {
+  margin-top: 4em;
 }
 
 .containercardsfooter {
@@ -396,20 +396,19 @@ footer{
 .cardsfooter {
   background-color: #f5fcfb;
   width: 80%;
-  height: 150px;
+  height: 15em;
   display: flex;
-  border: 1px solid #00000050;
-  border-radius: 8px;
-
+  border: 0.1em solid #00000050;
+  border-radius: 0.8em;
 }
 
 .cardfooter {
   display: flex;
   align-items: center;
-  margin: 0px 20px 0px 20px;
+  margin: 0em 2em 0em 2em;
 }
 
 .cardfooter img {
-  width: 100px;
-  height: 100px;
+  width: 10em;
+  height: 10em;
 }
