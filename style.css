@@ -186,7 +186,7 @@ nav {
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2.5em;
+  gap: 2em;
 }
 
 .filter {
@@ -267,7 +267,7 @@ nav {
 }
 
 .card {
-  width: 35em;
+  width: 25em;
   height: 40em;
   border: 0.1em solid #000;
   border-radius: 0.8em;
@@ -310,7 +310,7 @@ nav {
 .cardtext {
   display: flex;
   flex-direction: column;
-  padding: 1em 2em 2em 2em;
+  padding: 1em 2em 0em 2em;
   
 }
 
@@ -320,7 +320,7 @@ nav {
 }
 
 .cardvalues {
-  padding: 0em 0em 0em 2em;
+  padding: 2em 0em 0em 2em;
   color: #0c0e59;
 
 }
