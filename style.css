@@ -7,6 +7,13 @@
   font-family: "Inter", sans-serif;
 }
 
+:root {
+  --cor-primaria: #ffbb00;
+  --cor-secundaria: #0c0e59;
+  --cor-fundo: #fff;
+  --cor-texto: #000;
+}
+
 body {
   background-color: rgb(255, 255, 255);
 }
@@ -27,7 +34,7 @@ nav {
 .containertop {
   width: 100%;
   height: 25em;
-  background-color: white;
+  background-color: var(--cor-fundo);
   display: flex;
   align-items: center;
 }
@@ -37,17 +44,17 @@ nav {
 }
 
 .direita h2 {
-  color: #0c0e59;
+  color: var(--cor-secundaria);
   font-size: 2em;
 }
 
 .direita h2 span {
-  color: #ffbb00;
+  color: var(--cor-primaria);
   font-size: 2.8em;
 }
 
 .direita p {
-  color: #000;
+  color: var(--cor-texto);
   margin-top: 2em;
 }
 
@@ -164,12 +171,12 @@ nav {
 }
 
 .bottons button:hover {
-  border-color: #ffbb00;
+  border-color: var(--cor-primaria);
   transition: 0.3s;
 }
 
 .bottons button:hover p {
-  color: #ffbb00;
+  color: var(--cor-primaria);
 }
 
 .bottons button:hover img.img-hover {
@@ -192,9 +199,9 @@ nav {
 .filter {
   height: 100%;
   width: 35em;
-  background-color: #fff;
+  background-color: var(--cor-fundo);
   border-radius: 0.8em;
-  border: 0.1em solid #000;
+  border: 0.1em solid var(--cor-texto);
   margin-left:2.5em;
 }
 
@@ -215,7 +222,7 @@ nav {
 }
 
 .top p:hover {
-  color: #ffbb00;
+  color: var(--cor-primaria);
 }
 
 .checkboxes {
@@ -257,7 +264,7 @@ nav {
 
 .price input {
   width: 50%;
-  background-color: #ffbb00;
+  background-color: var(--cor-primaria);
 }
 
 .precos {
@@ -269,9 +276,9 @@ nav {
 .card {
   width: 25em;
   height: 40em;
-  border: 0.1em solid #000;
+  border: 0.1em solid var(--cor-texto);
   border-radius: 0.8em;
-  background-color: #fff;
+  background-color: var(--cor-fundo);
 }
 
 .cardheart {
@@ -321,7 +328,7 @@ nav {
 
 .cardvalues {
   padding: 2em 0em 0em 2em;
-  color: #0c0e59;
+  color: var(--cor-secundaria);
 
 }
 
@@ -333,7 +340,7 @@ nav {
   width: 5em;
   height: 5em;
   border-radius: 0.8em;
-  border: 0.3em solid #ffbb00;
+  border: 0.3em solid var(--cor-primaria);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -370,7 +377,7 @@ nav {
   width: 4em;
   height: 4em;
   border: 0.1em solid #00000050;
-  background-color: #fff;
+  background-color: var(--cor-fundo);
   border-radius: 0.8em;
   cursor: pointer;
 }
@@ -379,7 +386,7 @@ nav {
   width: 4em;
   height: 4em;
   border: none;
-  background-color: #fff;
+  background-color: var(--cor-fundo);
   border-radius: 0.8em;
   cursor: pointer;
 }
